@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68,<77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pfc-export-cratedb"
+version = "0.1.0"
+description = "Export CrateDB tables to PFC cold-storage archives with timestamp index"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+keywords = ["pfc", "jsonl", "compression", "cratedb", "cold-storage", "archive", "logs"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: System :: Logging",
+    "Topic :: Database",
+    "Topic :: Utilities",
+]
+dependencies = ["psycopg2-binary>=2.9"]
+
+[project.scripts]
+pfc-export-cratedb = "pfc_export_cratedb:main"
+
+[project.urls]
+Homepage   = "https://github.com/ImpossibleForge/pfc-export-cratedb"
+Repository = "https://github.com/ImpossibleForge/pfc-export-cratedb"
+
+[tool.setuptools]
+py-modules = ["pfc_export_cratedb"]

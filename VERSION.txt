@@ -1,0 +1,7 @@
+pfc-export-cratedb v0.1.0
+=========================
+Status:  RELEASE — 2026-05-04
+Datum:   2026-04-23
+
+Erstes Release. Extrahiert aus pfc-migrate v1.2.0 (DB-Export Subcommand).
+Standalone Tool: CrateDB → .pfc Archive mit Timestamp-Index.
