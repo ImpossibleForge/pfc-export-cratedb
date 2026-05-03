@@ -203,6 +203,12 @@ pfc-export-cratedb v0.1.0 — Test Suite
 
 ---
 
+## Disclaimer
+
+pfc-export-cratedb is an independent open-source project and is not affiliated with, endorsed by, or associated with Crate.io GmbH or the CrateDB project.
+
+---
+
 ## License
 
 pfc-export-cratedb (this repository) is released under the MIT License — see [LICENSE](LICENSE).
