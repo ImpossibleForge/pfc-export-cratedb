@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![PFC-JSONL](https://img.shields.io/badge/PFC--JSONL-v3.4-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
+[![PFC-JSONL](https://img.shields.io/badge/PFC--JSONL-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
 [![Version](https://img.shields.io/badge/pfc--export--cratedb-v0.1.0-brightgreen.svg)](https://github.com/ImpossibleForge/pfc-export-cratedb/releases)
 
 Stream rows from a CrateDB table directly into a compressed `.pfc` archive with block-level timestamp index — ready for time-range queries via DuckDB or pfc-gateway without loading the full archive.
